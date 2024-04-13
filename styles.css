@@ -139,3 +139,30 @@ button{
     padding-bottom: 72px;
     padding-right: 20%;
 }
+
+#signup{
+    height: 150px;
+    background-color: #3882F6;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 10px;
+}
+
+.signup_text{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lower_button{
+    margin-right: 10%;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid white;
+}
