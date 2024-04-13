@@ -32,6 +32,7 @@ ul{
 
 #Logo{
     font-size: 24px;
+    font-weight: bolder;
 }
 
 .header_content{
@@ -70,11 +71,50 @@ button{
 }
 
 .img_placeholder{
-    font-size: 8px;
+    font-size: 16px;
     margin-bottom: 32px;
     text-align: center;
-    line-height: 100px;
-    height: 100px;
-    width: 300px;
+    line-height: 200px;
+    height: 200px;
+    width: 400px;
     background-color: gray;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin: 72px;
+    padding-bottom: 72px;
+}
+
+.info_title{
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.img_set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+
+.img_and_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+
+.img_description{
+    text-align: center;
+}
+
+.info_img_placeholder{
+    height: 100px;
+    width: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 7.5%;    
 }
